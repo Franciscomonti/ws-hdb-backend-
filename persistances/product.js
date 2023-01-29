@@ -38,5 +38,24 @@ export default {
                 reject(error);
             }
         })
+    },
+
+    deleted: (id) => {
+        return new Promise((resolve, reject) => {
+            try {
+                let productsList = JSON.parse(fs.readFileSync(`./data/product.json`));
+                let productToDeleted = productsList.find((product) => product.id === id)
+                if (productToDeleted) {
+                    let products = productsList.filter((product) => product.id !== id);
+                    let dataString = JSON.stringify(products);
+                    fs.writeFileSync(`./data/product.json`, dataString);
+                    resolve(productToDeleted);
+                }
+                resolve('product id not found');
+            }catch (error) {
+                reject(error);
+            }
+
+        })
     }
 }

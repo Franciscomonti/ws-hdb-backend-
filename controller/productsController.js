@@ -31,5 +31,16 @@ export default {
             .getAll()
             .then(data => res.status(200).render('products', { data }))
             .catch(err => res.status(500).json({error: err.message}))
+    },
+
+    
+    deleteProduct: (data, req, res) => {
+        let id = data
+
+        persistance
+            .deleted(id)
+            .then(productToDeleted => res.status(200).json({'product deleted correct': productToDeleted}))
+            .catch(err => res.status(500).json({err: err.message}))
+
     }
 }

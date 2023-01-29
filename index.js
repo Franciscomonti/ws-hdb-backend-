@@ -41,6 +41,10 @@ io.on('connect', socket=> {
         controller.create(data)
     })
 
+    socket.on('deleted', (data)=>{
+        controller.deleteProduct(data)
+    })
+
     let products = JSON.parse(fs.readFileSync(`./data/product.json`));
 
     socket.emit("products", products)

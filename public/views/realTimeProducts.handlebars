@@ -1,4 +1,6 @@
-<h1>Productos Online</h1>
+{{!-- Product to add --}}
+
+<h2>Products List Online</h2>
 <div>
     <form id="form">
         <input type="text" id="title" name="title" placeholder="product title"/><br/><br/>
@@ -7,14 +9,31 @@
         <input type="text" id="code" name="code" placeholder="code"/><br/><br/>
         <input type="text" id="stock" name="stock" placeholder="stock"/><br/><br/>
         <input type="text" id="category" name="category" placeholder="category"/><br/><br/>
-        <input type="text" id="url" name="url" placeholder="url"/><br/><br/>
+        <input type="text" id="thumbnails" name="thumbnails" placeholder="thumbnails"/><br/><br/>
         
         <button type="submit">Send</button>
     </form>
 </div>
+
+
+{{!-- deleted form --}}
+
+<h2>Delete product by id</h2>
+<p>please insert product id to deleted</p>
+<div>
+    <form id="form_delete">
+        <input type="text" id="id_to_deleted" placeholder="Insert id to delete">
+        <button type="submit">Delete product</button>
+    </form>
+</div>
+
+{{!-- Product list --}}
+
 <div>
     <p id="products_list"></p>
 </div>
 
+
+{{!-- io Scripts --}}
 <script src="/socket.io/socket.io.js"></script>
 <script src="/js/index.js"></script>
