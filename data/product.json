@@ -1,0 +1,175 @@
+[
+  {
+    "id": "9b923111-0118-4f4f-8547-7d196a3a3b7a",
+    "title": "producto 2",
+    "description": "producto 2",
+    "code": "w4314",
+    "price": 2000,
+    "stock": 10,
+    "category": "not category",
+    "thumbnails": "url producto 2"
+  },
+  {
+    "id": "47db3b49-aa14-406c-ad41-074be7e26910",
+    "title": "producto 1",
+    "description": "producto 1",
+    "code": "asdasda",
+    "price": 2000,
+    "stock": 10,
+    "category": "not category",
+    "thumbnails": "url producto 1"
+  },
+  {
+    "id": "9f324324-3a36-47aa-ab07-02f47a19b730",
+    "title": "rqrqw",
+    "description": "rqwrq",
+    "code": "qerqer",
+    "price": "123213",
+    "stock": "eqreqrqe",
+    "category": "erqrqe"
+  },
+  {
+    "id": "bdd6dbae-2ba9-4022-a794-603e50445f39",
+    "title": "12312",
+    "description": "213213",
+    "code": "3213213",
+    "price": "21312",
+    "stock": "123213",
+    "category": "123213"
+  },
+  {
+    "id": "1f58c071-68f5-474c-939f-3b69f8154275",
+    "title": "213123",
+    "description": "123213",
+    "code": "321321",
+    "price": "213213",
+    "stock": "213213",
+    "category": "213213"
+  },
+  {
+    "id": "3c5cde62-f639-4666-adac-6c02c8461d75",
+    "title": "21321",
+    "description": "21321",
+    "code": "21321",
+    "price": "21321",
+    "stock": "12321",
+    "category": "21321"
+  },
+  {
+    "id": "b9816b54-c69e-461e-a015-ed15e4760a42",
+    "title": "12321",
+    "description": "231312",
+    "code": "12321",
+    "price": "123213",
+    "stock": "1211111",
+    "category": "11111"
+  },
+  {
+    "id": "d0cdd176-ab74-4229-9f1d-0b0ac2197bc9",
+    "title": "caca",
+    "description": "caca 2",
+    "code": "dsadsa3213",
+    "price": "23232",
+    "stock": "12",
+    "category": "sadsadsad"
+  },
+  {
+    "id": "2a5e8849-f465-496a-8e02-f1c0f8a450e0",
+    "title": "cacacacaca",
+    "description": "cacaca",
+    "code": "casdfca4e123341",
+    "price": "cac2313",
+    "stock": "cascasca",
+    "category": "csacasc"
+  },
+  {
+    "id": "49963e45-bcb0-4757-aebf-bb8a3e306827",
+    "title": "caca",
+    "description": "caca",
+    "code": "caca",
+    "price": "caca",
+    "stock": "caca",
+    "category": "caca"
+  },
+  {
+    "id": "25ca194a-db72-4f77-9815-eb40e1019250",
+    "title": "dsad",
+    "description": "sadsad",
+    "code": "sadas",
+    "price": "sadas",
+    "stock": "dsad",
+    "category": "asdsa"
+  },
+  {
+    "id": "cf9ab5d4-f256-4615-afe1-64a3029aff23",
+    "title": "aaa",
+    "description": "aaa",
+    "code": "aaa",
+    "price": "aaa",
+    "stock": "aaa",
+    "category": "aaa"
+  },
+  {
+    "id": "7f48516e-1bb7-4ef6-b396-9d65883857eb",
+    "title": "2122",
+    "description": "222",
+    "code": "222",
+    "price": "222",
+    "stock": "222",
+    "category": "222"
+  },
+  {
+    "id": "79aaff6e-3377-4316-8ac9-f44676e767f1",
+    "title": "333",
+    "description": "33",
+    "code": "33",
+    "price": "33",
+    "stock": "33",
+    "category": "33"
+  },
+  {
+    "id": "a6212687-157e-42e4-a70c-04057ad01688",
+    "title": "44",
+    "description": "44",
+    "code": "44",
+    "price": "44",
+    "stock": "44",
+    "category": "44"
+  },
+  {
+    "id": "08799049-9e55-44cc-99d3-9bab571979ac",
+    "title": "22",
+    "description": "22",
+    "code": "22",
+    "price": "22",
+    "stock": "22",
+    "category": "22"
+  },
+  {
+    "id": "8179a622-5463-4124-a796-3b73dab676d7",
+    "title": "11",
+    "description": "11",
+    "code": "11",
+    "price": "11",
+    "stock": "11",
+    "category": "11"
+  },
+  {
+    "id": "c3c31fec-e3a8-40a9-8be3-bbe399d287e3",
+    "title": "22",
+    "description": "2222",
+    "code": "22222",
+    "price": "2222",
+    "stock": "22",
+    "category": "222"
+  },
+  {
+    "id": "c8c23df2-4fa0-469e-b25f-db8d7fb40958",
+    "title": "22",
+    "description": "2222",
+    "code": "22221111111111",
+    "price": "22222",
+    "stock": "111111111111",
+    "category": "111111111111"
+  }
+]

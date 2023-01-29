@@ -1,0 +1,47 @@
+.products_list {
+    width: 700px;
+    margin: 50px;
+    font-family: sans-serif
+}
+
+.products_title {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+
+.products_table {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #dadada;
+}
+
+.products_table table thead tr th {
+    margin: 2px 5px;
+    padding: 2px 15px;
+    color: blue;
+    padding: 20px;
+}
+
+.products_table table tbody td {
+    padding: 2px 10px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #dadada;
+}
